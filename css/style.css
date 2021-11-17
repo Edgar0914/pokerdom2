@@ -289,6 +289,18 @@ header {
 
 	color: #ffffff;
 }
+.twopop{
+	
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 8px;
+	line-height: 10px;
+	/* identical to box height, or 125% */
+
+	color: #ffffff;
+}
+
 .btn_cursor {
 	position: relative;
 }
@@ -598,7 +610,7 @@ footer {
 .popup_content {
 	background-color: #ffffff;
 	max-width: 800px;
-	padding: 10px 30px;
+	padding: 10px 16px;
 	position: relative;
 	transition: all 0.8s ease 0s;
 	opacity: 0;
@@ -610,4 +622,47 @@ footer {
 	top: 10px;
 	font-size: 15px;
 	color: #d52b36;
+}
+.ratingsRes{
+	width: 292px;
+	height: 345px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 15px;
+	background: #ffffff;
+	border-radius: 10px;
+	padding: 19px 20px;
+}
+.forBtw{
+	display: flex;
+	justify-content: space-between;
+}
+.headerLinks{
+	width: 390px;
+	display: none;
+}
+.headerLinksA{
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 28px;
+/* identical to box height, or 233% */
+
+
+color: #FFFFFF;
+
+}
+.headLinkSvg{
+	display: none;
+	font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 28px;
+/* identical to box height, or 233% */
+
+
+color: #FFFFFF;
+
 }

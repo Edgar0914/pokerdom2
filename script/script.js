@@ -117,6 +117,13 @@ let btnCode = document.querySelectorAll('.red_btn');
 btnCode.forEach(el => {
 	el.addEventListener('click', () => {
 		navigator.clipboard.writeText(el.querySelector('.code').textContent)
-		alert('Код скопирован')
+		swal({
+			title: "Промокод скопирована",
+			icon: "success",
+			button: "Ок",
+		});
+
 	})
 })
+
+
